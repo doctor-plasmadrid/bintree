@@ -1,0 +1,21 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Source code
+*.h text eol=lf
+*.hpp text eol=lf
+*.cpp text eol=lf
+*.tpp text eol=lf
+*.c text eol=lf
+
+# Documentation
+*.md text eol=lf
+*.txt text eol=lf
+*.rst text eol=lf
+
+# Scripts
+*.sh text eol=lf
+*.py text eol=lf
+
+# Windows
+*.bat text eol=crlf
